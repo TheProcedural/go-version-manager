@@ -1,26 +1,26 @@
 # Go Version Manager (gov)
 
-[Go Version Manager (gov)](https://gitlab.com/bjerke-tek/gov) is a simple command-line tool for managing Go versions on your system.
+[Go Version Manager (gov)](https://gitlab.com/bjerke-tek/go-version-manager) is a simple command-line tool for managing Go versions on your system.
 
 ## Table of contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-  - [List available supported Go versions](#list-available-supported-go-versions)
-  - [List all available Go versions](#list-all-available-go-versions)
-  - [Install a Go version](#install-a-go-version)
-  - [Reinstall a Go version](#reinstall-a-go-version)
-  - [Use a Go version](#use-a-go-version)
-  - [Display the currently used Go version](#display-the-currently-used-go-version)
-  - [List installed Go versions](#list-installed-go-versions)
-  - [Remove a Go version](#remove-a-go-version)
-  - [Prune](#prune)
-  - [Show version](#show-version)
-  - [Self update](#self-update)
-  - [Uninstall gov](#uninstall-gov)
-  - [Show help](#show-help)
-- [Compiling from Source](#compiling-from-source)
-- [License](#license)
+-   [Installation](#installation)
+-   [Usage](#usage)
+    -   [List available supported Go versions](#list-available-supported-go-versions)
+    -   [List all available Go versions](#list-all-available-go-versions)
+    -   [Install a Go version](#install-a-go-version)
+    -   [Reinstall a Go version](#reinstall-a-go-version)
+    -   [Use a Go version](#use-a-go-version)
+    -   [Display the currently used Go version](#display-the-currently-used-go-version)
+    -   [List installed Go versions](#list-installed-go-versions)
+    -   [Remove a Go version](#remove-a-go-version)
+    -   [Prune](#prune)
+    -   [Show version](#show-version)
+    -   [Self update](#self-update)
+    -   [Uninstall gov](#uninstall-gov)
+    -   [Show help](#show-help)
+-   [Compiling from Source](#compiling-from-source)
+-   [License](#license)
 
 ## Installation
 
@@ -42,13 +42,13 @@ wget -O- https://gov.bjerkepedia.com/gov.sh | bash
 
 ### List available supported Go versions
 
-__Long:__
+**Long:**
 
 ```bash
 gov list-supported
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov s
@@ -56,13 +56,13 @@ gov s
 
 ### List all available Go versions
 
-__Long:__
+**Long:**
 
 ```bash
 gov list-all
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov a
@@ -72,7 +72,7 @@ gov a
 
 Install a Go _version_, or the latest release using the "latest" tag, e.g:
 
-__Long:__
+**Long:**
 
 ```bash
 gov install 1.21.1
@@ -82,7 +82,7 @@ gov install 1.21.1
 gov install latest
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov i 1.21.1
@@ -96,13 +96,13 @@ gov i latest
 
 Remove and then install again a Go _version_, e.g:
 
-__Long:__
+**Long:**
 
 ```bash
 gov reinstall 1.21.1
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov r 1.21.1
@@ -112,13 +112,13 @@ gov r 1.21.1
 
 The first time gov will set the env var for you and you might need to restart your shell/terminal for the configuration to take effect. Subsequent changes should work seamlessly.
 
-__Long:__
+**Long:**
 
 ```bash
 gov use 1.21.1
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov u 1.21.1
@@ -126,13 +126,13 @@ gov u 1.21.1
 
 ### Display the currently used Go version
 
-__Long:__
+**Long:**
 
 ```bash
 gov current
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov c
@@ -140,13 +140,13 @@ gov c
 
 ### List installed Go versions
 
-__Long:__
+**Long:**
 
 ```bash
 gov list
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov l
@@ -154,13 +154,13 @@ gov l
 
 ### Remove a Go version
 
-__Long:__
+**Long:**
 
 ```bash
 gov remove 1.21.1
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov x 1.21.1
@@ -170,13 +170,13 @@ gov x 1.21.1
 
 Remove all installed Go versions except the currently used one, e.g:
 
-__Long:__
+**Long:**
 
 ```bash
 gov prune
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov p
@@ -186,13 +186,13 @@ gov p
 
 Show the installed gov version and extras.
 
-__Long:__
+**Long:**
 
 ```bash
 gov version
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov v
@@ -202,13 +202,13 @@ gov v
 
 Update gov to its latest version
 
-__Long:__
+**Long:**
 
 ```bash
 gov self-update
 ```
 
-__Short:__
+**Short:**
 
 ```bash
 gov e
@@ -253,7 +253,7 @@ If you prefer to compile gov from source or want to contribute, you can follow t
 1. Clone the gov repository:
 
     ```bash
-    git clone https://gitlab.com/bjerke-tek/gov
+    git clone https://gitlab.com/bjerke-tek/go-version-manager
     ```
 
 2. Change to the gov directory:
@@ -263,7 +263,7 @@ If you prefer to compile gov from source or want to contribute, you can follow t
     ```
 
 3. Build gov using the build scripts:
-  
+
     1. Make script executable (if needed)
 
         ```bash
@@ -286,13 +286,13 @@ If you prefer to compile gov from source or want to contribute, you can follow t
 
 ### Building notes
 
-__If you build for Windows note that env vars and zip extraction won't work.
+**If you build for Windows note that env vars and zip extraction won't work.
 You're welcome to work on Windows support. I just can't be arsed with
-Windows, it puts me in a bad mood every time I use it.__
+Windows, it puts me in a bad mood every time I use it.**
 
 ## License
 
-This project is licensed under the GPLv3 License - see the [LICENSE](https://gitlab.com/bjerke-tek/gov/-/blob/master/LICENSE) file for details.
+This project is licensed under the GPLv3 License - see the [LICENSE](https://gitlab.com/bjerke-tek/go-version-manager/-/blob/master/LICENSE) file for details.
 
 ## Copyright notice
 
