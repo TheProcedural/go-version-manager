@@ -1,6 +1,6 @@
 # Go Version Manager (gov)
 
-[Go Version Manager (gov)](https://gitlab.com/bjerke-tek/go-version-manager) is a simple command-line tool for managing Go versions on your system.
+[Go Version Manager (gov)](https://github.com/TheProcedural/go-version-manager) is a simple command-line tool for managing Go versions on your system.
 
 ## Table of contents
 
@@ -253,7 +253,7 @@ If you prefer to compile gov from source or want to contribute, you can follow t
 1. Clone the gov repository:
 
     ```bash
-    git clone https://gitlab.com/bjerke-tek/go-version-manager
+    git clone https://gitlab.com/TheProcedural/go-version-manager
     ```
 
 2. Change to the gov directory:
@@ -292,7 +292,7 @@ Windows, it puts me in a bad mood every time I use it.**
 
 ## License
 
-This project is licensed under the GPLv3 License - see the [LICENSE](https://gitlab.com/bjerke-tek/go-version-manager/-/blob/master/LICENSE) file for details.
+This project is licensed under the GPLv3 License - see the [LICENSE](https://gitlab.com/TheProcedural/go-version-manager/-/blob/master/LICENSE) file for details.
 
 ## Copyright notice
 
