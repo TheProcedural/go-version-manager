@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Define the URL of the gov binary
-GOV_URL="https://gov.bjerkepedia.com/bin"
+GOV_URL="https://gov.theprocedural.com/bin"
 
 # Define the installation directory (where gov will be installed)
 INSTALL_DIR="/usr/local/bin"

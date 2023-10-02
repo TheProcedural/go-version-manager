@@ -29,13 +29,13 @@
 Using curl (recommended):
 
 ```bash
-curl -fsSL https://gov.bjerkepedia.com/gov.sh | bash
+curl -fsSL https://gov.theprocedural.com/gov.sh | bash
 ```
 
 Using wget:
 
 ```bash
-wget -O- https://gov.bjerkepedia.com/gov.sh | bash
+wget -O- https://gov.theprocedural.com/gov.sh | bash
 ```
 
 ## Usage
