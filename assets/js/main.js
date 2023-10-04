@@ -1,6 +1,6 @@
 // Fetch version
 
-fetch("https://gov.bjerkepedia.com/version")
+fetch("https://gov.theprocedural.com/version")
     .then((response) => response.text())
     .then((version) => {
         const versionElement = document.getElementById("version");

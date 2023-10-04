@@ -32,7 +32,7 @@ func SelfUpdate() error {
 	// Define the URL to download the latest 'gov' binary.
 	platform := runtime.GOOS
 	arch := runtime.GOARCH
-	url := fmt.Sprintf("https://gov.bjerkepedia.com/bin/%s/%s/gov", platform, arch)
+	url := fmt.Sprintf("https://gov.theprocedural.com/bin/%s/%s/gov", platform, arch)
 
 	// Define the path to the existing 'gov' binary.
 	existingBinaryPath := "/usr/local/bin/gov"

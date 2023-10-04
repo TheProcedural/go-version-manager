@@ -17,7 +17,7 @@ func GetLatestVersion(i string) string {
 	if i == "go" {
 		versionURL = "https://go.dev/VERSION?m=text"
 	} else if i == "gov" {
-		versionURL = "https://gov.bjerkepedia.com/version"
+		versionURL = "https://gov.theprocedural.com/version"
 	}
 
 	resp, err := http.Get(versionURL)
