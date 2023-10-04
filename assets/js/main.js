@@ -62,11 +62,13 @@ fetch("/README.md")
         readmeContent.querySelectorAll("pre").forEach((element) => {
             element.classList.add(
                 "mb-4",
-                "p-2",
+                "p-4",
                 "!bg-gray-200",
                 "dark:!bg-gray-900",
                 "dark:text-gray-100",
-                "rounded-lg"
+                "rounded-lg",
+                "language-bash",
+                "relative"
             );
         });
         readmeContent.querySelectorAll("code").forEach((element) => {
@@ -85,7 +87,6 @@ fetch("/README.md")
             element.classList.add("mb-2");
         });
 
-        Prism.highlightAll();
         addCopyButtons();
 
         // Smooth scrolling
